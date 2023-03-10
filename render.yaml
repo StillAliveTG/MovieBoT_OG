@@ -5,7 +5,6 @@ services:
     env: python
     startCommand: python3 bot.py
     buildCommand: pip3 install -U -r requirements.txt
-    repo: https://github/StillaliveTg/MovieBot_OG # optional
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     branch: master # optional (defaults to master)
